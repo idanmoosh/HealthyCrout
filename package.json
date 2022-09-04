@@ -1,18 +1,22 @@
 {
   "name": "healthycrout",
   "version": "1.0.0",
-  "description": "Healthy Crout E-commerce websit",
+  "description": "Healthy crout ECOMMERCE",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Idan Haim",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idanmoosh/HealthyCrout.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idanmoosh/HealthyCrout/issues"
+  },
+  "homepage": "https://github.com/idanmoosh/HealthyCrout#readme",
   "dependencies": {
     "express": "^4.18.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.19"
   }
 }
