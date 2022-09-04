@@ -10,13 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/idanmoosh/HealthyCrout.git"
   },
-  "author": "",
+  "author": "idan haim",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/idanmoosh/HealthyCrout/issues"
   },
-  "homepage": "https://github.com/idanmoosh/HealthyCrout#readme",
-  "dependencies": {
-    "express": "^4.18.1"
-  }
+  "homepage": "https://github.com/idanmoosh/HealthyCrout#readme"
 }
