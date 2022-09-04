@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/idanmoosh/HealthyCrout/issues"
   },
-  "homepage": "https://github.com/idanmoosh/HealthyCrout#readme"
+  "homepage": "https://github.com/idanmoosh/HealthyCrout#readme",
+  "dependencies": {
+    "pg": "^8.8.0"
+  }
 }
