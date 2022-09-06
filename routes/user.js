@@ -4,7 +4,7 @@ const userService = require('../services/userService');
 
 const userServiceInstance = new userService();
 
-module.exports = () => {
+module.exports = app => {
   app.use('/users', router);
 
   //get user details

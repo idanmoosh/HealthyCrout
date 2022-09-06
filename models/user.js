@@ -39,4 +39,5 @@ async function update(data) {
 
 module.exports = {
   create: create,
+  update: update,
 };
