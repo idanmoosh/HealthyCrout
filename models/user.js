@@ -1,7 +1,5 @@
 const db = require('../db/index');
-const pgp = require('pg-promise')({
-  capsSQL: true,
-});
+const pgp = require('pg-promise')();
 
 async function create(data) {
   try {

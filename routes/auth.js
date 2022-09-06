@@ -2,8 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 //initiate Authservice
-const authService = require('../services/authService');
-const authServiceInstance = new authService();
+const authServiceInstance = require('../services/authService');
 
 module.exports = (app, passport) => {
   app.use('/auth', router);

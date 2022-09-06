@@ -1,6 +1,5 @@
 const createError = require('http-errors');
-const userModel = require('../models/user');
-const userModelInstance = new userModel();
+const userModelInstance = require('../models/user.js');
 
 module.exports = () => {
   async function get(data) {
